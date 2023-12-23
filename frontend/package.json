@@ -24,11 +24,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build --openssl-legacy-provider build", 
-    "test": "react-scripts test --openssl-legacy-provider build",
-    "eject": "react-scripts eject --openssl-legacy-provider build"
-  },
+    "start": "react-scripts  start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+    },
   "eslintConfig": {
     "extends": [
       "react-app",
