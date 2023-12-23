@@ -1,6 +1,6 @@
 //routes for the get,put ,post requests
 import  express  from "express";
-import { deleteUser, getAllUsers,getUserById,login,signup, updateUser, getBookingsOfUser } from "../controllers/user-controller";
+import { deleteUser, getAllUsers,getUserById,login,signup, updateUser, getBookingsOfUser } from "../controllers/user-controller.js";
 //express.Router is a class and userRouter is an object or an instance to use all functions in userRouter 
 const userRouter= express.Router();
 
